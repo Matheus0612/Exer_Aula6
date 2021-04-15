@@ -1,0 +1,28 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+
+        <!-- Ao clicar no botão, será enviado
+        para o servidor (action) por método get
+        uma variável chamada 'nome' com o valor
+        digitado pelo usuário.
+    -->
+        <form action="http://localhost:4800" method="get">
+            Digite o 1º número: <input name="n1" value=""><br>
+            Digite o 2º número: <input name="n2" value=""><p>
+
+            Selecione a operação: 
+            <select name="calculo" id="">
+                <option value=""></option>
+                <option value="soma">Soma</option>
+                <option value="sub">Subtração</option>
+                <option value="mult">Multiplicação</option>
+                <option value="div">Divisão</option>
+            </select>
+            <button>Calcular</button>
+        </form>
+
+    </body>
+</html>
